@@ -1,0 +1,124 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-items: flex-start;
+}
+
+.box {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 30px 5px;
+}
+.box .color-box-text {
+  color: #818886;
+}
+.box.base-color {
+  padding: 30px 15px;
+}
+.box.base-color span {
+  color: white;
+}
+
+.container-1 .box {
+  background-color: #ec191e;
+}
+.container-1 .color-box-text {
+  color: #19ece7;
+}
+.container-1 .lighten-1 {
+  background-color: #ee3135;
+}
+.container-1 .darken-1 {
+  background-color: #da1217;
+}
+.container-1 .lighten-2 {
+  background-color: #f0484c;
+}
+.container-1 .darken-2 {
+  background-color: #c21014;
+}
+.container-1 .lighten-3 {
+  background-color: #f26063;
+}
+.container-1 .darken-3 {
+  background-color: #aa0e12;
+}
+.container-1 .lighten-4 {
+  background-color: #f4777a;
+}
+.container-1 .darken-4 {
+  background-color: #930c0f;
+}
+
+.container-2 .box {
+  background-color: #1b36d5;
+}
+.container-2 .color-box-text {
+  color: #d5ba1b;
+}
+.container-2 .lighten-1 {
+  background-color: #2642e3;
+}
+.container-2 .darken-1 {
+  background-color: #1830be;
+}
+.container-2 .lighten-2 {
+  background-color: #3d55e6;
+}
+.container-2 .darken-2 {
+  background-color: #152ba8;
+}
+.container-2 .lighten-3 {
+  background-color: #5369e9;
+}
+.container-2 .darken-3 {
+  background-color: #122591;
+}
+.container-2 .lighten-4 {
+  background-color: #6a7dec;
+}
+.container-2 .darken-4 {
+  background-color: #101f7a;
+}
+
+.container-3 .box {
+  background-color: #56b055;
+}
+.container-3 .color-box-text {
+  color: #af55b0;
+}
+.container-3 .lighten-1 {
+  background-color: #67b866;
+}
+.container-3 .darken-1 {
+  background-color: #4ca14b;
+}
+.container-3 .lighten-2 {
+  background-color: #79c078;
+}
+.container-3 .darken-2 {
+  background-color: #438f43;
+}
+.container-3 .lighten-3 {
+  background-color: #8ac889;
+}
+.container-3 .darken-3 {
+  background-color: #3b7e3b;
+}
+.container-3 .lighten-4 {
+  background-color: #9bd09b;
+}
+.container-3 .darken-4 {
+  background-color: #336d32;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

@@ -1,0 +1,79 @@
+$base-color-1: #ec191e;
+$base-color-2: #1b36d5;
+$base-color-3: #56b055;
+
+@mixin container-style {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-items: flex-start;
+}
+
+@mixin box-style {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 30px 5px;
+
+  .color-box-text {
+    color: #818886;
+  }
+
+  &.base-color {
+    padding: 30px 15px;
+    span {
+      color: white;
+    }
+  }
+}
+
+@function ligthenColor($base-color, $level) {
+  @return lighten($base-color, 5 * $level);
+}
+
+@function darkenColor($base-color, $level) {
+  @return darken($base-color, 5 * $level);
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  @include container-style();
+}
+
+.box {
+  @include box-style();
+}
+
+$styles: (
+  "container-1": $base-color-1, 
+  "container-2": $base-color-2, 
+  "container-3": $base-color-3
+);
+
+@each $container, $color in $styles {
+  .#{$container} {
+    .box {
+      background-color: $color;
+    }
+
+    .color-box-text {
+      color: complement($color);
+    }
+
+    @for $i from 1 through 4 {
+      .lighten-#{$i} {
+        background-color: ligthenColor($color, $i);
+      }
+
+      .darken-#{$i} {
+        background-color: darkenColor($color, $i);
+      }
+    }
+  }
+}

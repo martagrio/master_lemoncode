@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio_1",
+  "version": "1.0.0",
+  "description": "Modulo 1 - Layout basico - Ejercicio 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marta García",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
