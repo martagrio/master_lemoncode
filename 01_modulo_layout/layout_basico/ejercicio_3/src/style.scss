@@ -1,0 +1,51 @@
+//@use "themes/themeB" as *;
+
+$hover-color: #2f4858;
+$menu-bg-color: #006a7b;
+$menu-text-color: white;
+$breakpoint-sm: 600px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  @media screen and (max-width: $breakpoint-sm) {
+    padding: 1em;
+  }
+}
+
+.header-title {
+  font-size: 24px;
+  margin: 16px 0;
+}
+
+.menu-list {
+  color: $menu-text-color;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  .menu & {
+    background-color: $menu-bg-color;
+  }
+
+  li {
+    padding: 16px;
+  }
+
+  li:hover {
+    background-color: $hover-color;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    flex-direction: column;
+    align-items: strech;
+    text-align: center;
+  }
+}
