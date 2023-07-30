@@ -1,0 +1,47 @@
+@use "themes/themeA" as *;
+//@use "themes/themeB" as *;
+//Para activar el themeB descomentar y comentar el A
+
+@mixin box-style {
+  font-family: "Comic Sans MS", sans-serif, cursive;
+  font-weight: bold;
+  height: 80px;
+  width: 120px;
+  padding: 20px;
+  margin: 1px 0;
+  border: 1.5px solid grey;
+  border-radius: $border-radius;
+  text-align: left;
+  background-color: $base-color;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+.primary-font {
+  font-family: $primary-font;
+}
+
+.secondary-font {
+  font-family: $secondary-font;
+}
+
+.box {
+  @include box-style();
+
+  &.important {
+    background-color: darken($base-color, 30);
+  }
+
+  &.warning {
+    background-color: $color-warning;
+  }
+
+  &.box-shadow {
+    background-color: white;
+    box-shadow: $box-shadow;
+  }
+}

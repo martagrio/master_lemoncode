@@ -6,13 +6,13 @@ $base-color-3: #56b055;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  justify-items: flex-start;
+  gap: 15px;
 }
 
 @mixin box-style {
   border: 1px solid transparent;
   border-radius: 5px;
-  padding: 30px 5px;
+  padding: 30px 10px;
 
   .color-box-text {
     color: #818886;
@@ -38,6 +38,7 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-row-gap: 20px;
+  justify-content: center;
 }
 
 .container-1,
@@ -51,9 +52,9 @@ body {
 }
 
 $styles: (
-  "container-1": $base-color-1, 
-  "container-2": $base-color-2, 
-  "container-3": $base-color-3
+  "container-1": $base-color-1,
+  "container-2": $base-color-2,
+  "container-3": $base-color-3,
 );
 
 @each $container, $color in $styles {
