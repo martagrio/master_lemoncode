@@ -1,6 +1,5 @@
 # Master Front End XIV - Modulo 1 - Layout - Básico
 
-
 ## Ejercicio 1
 
 Crear una paleta de colores dinámica.
@@ -10,7 +9,6 @@ Crear una paleta de colores dinámica.
 - La idea es partir de un color base, y a partir de ese color generar 4 colores más oscuros de manera gradual, y cuatro colores más claros de manera gradual.
 
 - Para comprobar que todo esta funcionando como se espera utilizar el html del enunciado (ver pdf).
-
 
 ## Ejercicio 2
 
@@ -28,7 +26,6 @@ Los cambios en el tema afectan a las siguientes características:
 
 Para visualizar los cambios debería ser suficiente importar un tema u otro en el fichero de estilos principal.
 
-
 ## Ejercicio 3
 
 Crear la barra de navegación de la imagen usando flexbox.
@@ -39,9 +36,16 @@ Crear la barra de navegación de la imagen usando flexbox.
 
 - Mirar el pdf para ver el resultado de las distintas resoluciones.
 
-
 ## Ejercicio 4
 
 Crearemos un elemento de tipo card con Grid CSS.
 
 Las alineaciones deberán hacerse con esta característica, pero el html es totalmente abierto (ver pdf).
+
+## Visualización
+
+Si se desea visualizar cada ejercicio, descargarse/clonarse cada carpeta dentro de **layout_basico** y dentro de cada carpeta de ejercicios, ejecutar el siguiente comando:
+
+```bash
+$ npx parcel src/index.html
+```

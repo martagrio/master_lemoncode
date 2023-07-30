@@ -1,5 +1,15 @@
 {
+  "name": "ejercicio_3",
+  "version": "1.0.0",
+  "description": "Modulo 1 - Layout básico - Ejercicio 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marta García",
+  "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.9.3"
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
   }
 }
