@@ -10,7 +10,7 @@ Para ver el enunciado completo revisar [este pdf](<07 - Modulo 1 Layout - Labora
 
 ## Visualización
 
-Si se desea visualizar este ejercico, descargarse/clonarse la carpeta **layout_extra** y ejecutar los siguientes siguiente comandos (previa instalación de [Node.js](https://nodejs.org/es/download/)):
+Si se desea visualizar este ejercico, descargarse/clonarse la carpeta **layout_extra** y ejecutar los siguientes comandos (previa instalación de [Node.js](https://nodejs.org/es/download/)):
 
 ```bash
 $ npm install
