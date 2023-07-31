@@ -4,7 +4,7 @@
 
 Este laboratorio es EXTRA, y por tanto opcional, pero nuestro consejo es que los cubras todos.
 
-![Imagen que muestra cómo debe lucir la web a crear en este ejercicio extra](image.png)
+![Imagen que muestra cómo debe lucir la web a crear en este ejercicio extra](readme_assets/resultado.png)
 
 ### Introducción
 
@@ -23,15 +23,15 @@ Vamos a crear un Layout para una aplicación, que contendrá:
 
 ### Diseño Desktop (a partir de 768px)
 
-![Diseño de la página a más de 768px de ancho](design_rel_mayor.png)
+![Diseño de la página a más de 768px de ancho](readme_assets/design_rel_mayor.png)
 
 Comportamiento de la web
 
-![Comportamiento de la página a más de 768px de ancho](comportamiento_rel_mayor.png)
+![Comportamiento de la página a más de 768px de ancho](readme_assets/comportamiento_rel_mayor.png)
 
 ### Diseño Mobile/Tablet (hasta 768px de ancho)
 
-![Diseño y comportamiento de la página hasta 768px de ancho](comportamiento_rel_menor.png)
+![Diseño y comportamiento de la página hasta 768px de ancho](readme_assets/comportamiento_rel_menor.png)
 
 ### Consideraciones
 

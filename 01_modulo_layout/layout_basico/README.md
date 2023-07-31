@@ -46,7 +46,7 @@ NOTA: Para este ejercicio se puede utilizar cualquier estructura de Sass que se 
 
 Resultado esperado:
 
-![Resultado esperado del ejercicio 1 - Layout básico](resultado_ejercicio_1.png)
+![Resultado esperado del ejercicio 1 - Layout básico](readme_assets/resultado_ejercicio_1.png)
 
 ## Ejercicio 2
 
@@ -66,7 +66,7 @@ Para visualizar los cambios debería ser suficiente importar un tema u otro en e
 
 Resultado esperado:
 
-![Resultado esperado del ejercicio 2 - Layout básico](resultado_ejercicio_2.png)
+![Resultado esperado del ejercicio 2 - Layout básico](readme_assets/resultado_ejercicio_2.png)
 
 ## Ejercicio 3
 
@@ -78,11 +78,11 @@ Crear la barra de navegación de la imagen usando flexbox.
 
 Resultado esperado para resoluciones mayores:
 
-![Resultado esperado para resoluciones mayores del ejercicio 3 - Layout básico](resultado_ejercicio_3_res_mayor.png)
+![Resultado esperado para resoluciones mayores del ejercicio 3 - Layout básico](readme_assets/resultado_ejercicio_3_res_mayor.png)
 
 Resultado esperado para resoluciones menores: 
 
-![Resultado esperado para resoluciones menores del ejercicio 3](resultado_ejercicio_3_res_menor.png)
+![Resultado esperado para resoluciones menores del ejercicio 3](readme_assets/resultado_ejercicio_3_res_menor.png)
 
 ## Ejercicio 4
 
@@ -92,7 +92,7 @@ Las alineaciones deberán hacerse con esta característica, pero el html es tota
 
 Resultado esperado:
 
- ![Resultado esperado del ejercicio 4 - Layout básico](resultado_ejercicio_4.png)
+ ![Resultado esperado del ejercicio 4 - Layout básico](readme_assets/resultado_ejercicio_4.png)
 
 ## Visualización
 

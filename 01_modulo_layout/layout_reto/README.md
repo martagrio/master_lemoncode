@@ -14,28 +14,28 @@ del resultado de la prueba dependerá pasar a la siguiente fase de selección.
 
 ### Diseño Desktop (ancho 1280px mínimo)
 
-![Diseño de la página con un ancho mínimo de 1280px](design_desktop.png)
+![Diseño de la página con un ancho mínimo de 1280px](readme_assets/design_desktop.png)
 
 #### Comportamiento esperado
 
-![Comportamiento de la página con un ancho mínimo de 1280px](comportamiento_desktop.png)
+![Comportamiento de la página con un ancho mínimo de 1280px](readme_assets/comportamiento_desktop.png)
 
 ### Diseño responsive
 
-![Diseño responsive de la página con un ancho mínimo de 1280px](responsive.png)
+![Diseño responsive de la página con un ancho mínimo de 1280px](readme_assets/responsive.png)
 
 ### Diseño Mobile/Tablet (hasta 1280px)
 
-![Diseño de la página con un ancho hasta 1280px indicando los cambios con respecto a la anterior resolución](design_tablet.png)
+![Diseño de la página con un ancho hasta 1280px indicando los cambios con respecto a la anterior resolución](readme_assets/design_tablet.png)
 
-![Diseño de la página con un ancho hasta 1280px](design_tablet-mobile.png)
+![Diseño de la página con un ancho hasta 1280px](readme_assets/design_tablet-mobile.png)
 
 ### Notas
 
 - Fuente utilizada: [Jost](https://fonts.google.com/specimen/Jost?preview.text=warner+live&preview.text_type=custom)
 
 - Color de fondo de la plataforma: **_#141414_**
-- Se adjunta [carpeta de trabajo](04-playground-ejercicio-laboratorio-avanzado.zip) con la base de HTML (puede ser modificado al gusto) y las imágenes, carátulas y logo, que se pueden modificar/añadir
+- Se adjunta [carpeta de trabajo](readme_assets/04-playground-ejercicio-laboratorio-avanzado.zip) con la base de HTML (puede ser modificado al gusto) y las imágenes, carátulas y logo, que se pueden modificar/añadir
 - Se aporta los requisitos de diseño base, con libertad de creatividad
 
 ## Visualización
