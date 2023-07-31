@@ -35,7 +35,7 @@ del resultado de la prueba dependerá pasar a la siguiente fase de selección.
 - Fuente utilizada: [Jost](https://fonts.google.com/specimen/Jost?preview.text=warner+live&preview.text_type=custom)
 
 - Color de fondo de la plataforma: **_#141414_**
-- Se adjunta [carpeta de trabajo](04-playground-ejercicio-laboratorio-avanzado) con la base de HTML (puede ser modificado al gusto) y las imágenes, carátulas y logo, que se pueden modificar/añadir
+- Se adjunta [carpeta de trabajo](04-playground-ejercicio-laboratorio-avanzado.zip) con la base de HTML (puede ser modificado al gusto) y las imágenes, carátulas y logo, que se pueden modificar/añadir
 - Se aporta los requisitos de diseño base, con libertad de creatividad
 
 ## Visualización
