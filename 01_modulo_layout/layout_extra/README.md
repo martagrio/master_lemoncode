@@ -8,13 +8,13 @@ Este laboratorio es EXTRA, y por tanto opcional, pero nuestro consejo es que los
 
 Para ver el enunciado completo revisar [este pdf](<07 - Modulo 1 Layout - Laboratorio Extra.pdf>)
 
-Aquí tienes a modo de arranque el HTML base. Tiene todo lo necesario, pero puedes modificarlo según tus necesidades:
-
-[index.html](index.html)
-
 ## Visualización
 
-Si se desea visualizar este ejercico, descargarse/clonarse la carpeta **layout_extra** y ejecutar el siguiente comando:
+Si se desea visualizar este ejercico, descargarse/clonarse la carpeta **layout_extra** y ejecutar los siguientes siguiente comandos (previa instalación de [Node.js](https://nodejs.org/es/download/)):
+
+```bash
+$ npm install
+```
 
 ```bash
 $ npx parcel src/index.html

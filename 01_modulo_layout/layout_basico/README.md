@@ -44,7 +44,11 @@ Las alineaciones deberán hacerse con esta característica, pero el html es tota
 
 ## Visualización
 
-Si se desea visualizar cada ejercicio, descargarse/clonarse cada carpeta dentro de **layout_basico** y dentro de cada carpeta de ejercicios, ejecutar el siguiente comando:
+Si se desea visualizar cada ejercicio, descargarse/clonarse cada carpeta dentro de **layout_basico** y ejecutar los siguientes siguiente comandos (previa instalación de [Node.js](https://nodejs.org/es/download/)):
+
+```bash
+$ npm install
+```
 
 ```bash
 $ npx parcel src/index.html
