@@ -1,4 +1,4 @@
-# Master Front End XIV - Modulo 1 - Layout - Reto
+# Master Front End XIV - Módulo 1 - Layout - Reto
 
 
 ## ¡CHALLENGE!
