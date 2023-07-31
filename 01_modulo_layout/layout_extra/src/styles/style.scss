@@ -1,0 +1,145 @@
+@use "reset";
+@use "base" as *;
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: $header-height 1fr $footer-height;
+  grid-template-areas:
+    "header header"
+    "container container"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  background-color: $header-bg-color;
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $padding-size;
+    background-color: white;
+
+    input {
+      padding: 6px;
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+      display: none;
+    }
+  }
+
+  .page-title {
+    @include title_style();
+  }
+}
+
+.page-container {
+  grid-area: container;
+  display: grid;
+  grid-template-columns: $menu-width 1fr;
+  grid-template-areas: "menu main";
+
+  @media screen and (max-width: $breakpoint-sm) {
+    grid-template-columns: 1fr;
+    grid-template-areas: "menu" "main";
+  }
+}
+
+nav {
+  grid-area: menu;
+  background-color: $primary-color;
+  @include sticky_elem;
+
+  .menu-container {
+    @include sticky_elem;
+  }
+
+  .menu-title {
+    @include title_style();
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (max-width: $breakpoint-sm) {
+      display: none;
+    }
+  }
+
+  ul {
+    background-color: $secondary-color;
+
+    @media screen and (max-width: $breakpoint-sm) {
+      display: flex;
+      justify-content: space-between;
+      background-color: $primary-color;
+      padding: 8px;
+      gap: 16px;
+    }
+  }
+
+  li {
+    color: $primary-color;
+    padding: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+
+    :not(:last-child) {
+      border-bottom: 0;
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+      border-bottom: none;
+      background-color: $secondary-color;
+      width: 100%;
+      max-width: 150px;
+      text-align: center;
+    }
+  }
+}
+
+main {
+  grid-area: main;
+  background-color: $main-bg-color;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 24px;
+  gap: 16px 24px;
+
+  @media screen and (max-width: $breakpoint-sm) {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+footer {
+  grid-area: footer;
+  background-color: $secondary-color;
+  padding: $padding-size;
+  color: $primary-color;
+}
+
+.card {
+  @include card_style();
+
+  img {
+    border-radius: 50%;
+  }
+
+  .member-name {
+    text-align: center;
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 24px;
+    border: none;
+  }
+}

@@ -1,0 +1,40 @@
+$primary-color: #393e0b;
+$secondary-color: #f9fbe4;
+$title-size: 1.5rem;
+$padding-size: 1rem;
+
+$header-height: auto;
+$header-bg-color: #cdde34;
+
+$menu-width: 220px;
+$main-bg-color: #f1f1f1;
+
+$footer-height: auto;
+
+$breakpoint-sm: 768px;
+
+@mixin sticky_elem() {
+  position: sticky;
+  top: 0;
+}
+
+@mixin title_style($font-size: 24px, $color: white, $padding: $padding-size) {
+  font-size: $font-size;
+  color: $color;
+  padding: $padding;
+  font-weight: bold;
+}
+
+@mixin card_style($width: 220px, $radius: 5px, $padding: 16px) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  width: $width;
+  border: 1px solid $primary-color;
+  border-radius: $radius;
+  color: $primary-color;
+  padding: $padding;
+}
