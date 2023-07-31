@@ -117,13 +117,6 @@ main {
   }
 }
 
-footer {
-  grid-area: footer;
-  background-color: $secondary-color;
-  padding: $padding-size;
-  color: $primary-color;
-}
-
 .card {
   @include card_style();
 
@@ -142,4 +135,11 @@ footer {
     gap: 24px;
     border: none;
   }
+}
+
+footer {
+  grid-area: footer;
+  background-color: $secondary-color;
+  padding: $padding-size;
+  color: $primary-color;
 }
