@@ -9,10 +9,15 @@
   font-family: "Inter", "Open Sans", sans-serif;
 }
 
+/* Antes:
 html,
 body {
-  height: 100%;
-}
+  height: 100%; quitado pues no coge el alto completo de la pantalla y el hijo page-container era más grande que el padre.
+} */
+
+/* Tras revisarlo con Antonio y hacer pruebas, he decidido quitar del reset altura de html y body. Aquí es mejor dejar
+siempre código que quiere que se aplique sí o sí y en el tema alturas, se pueden dar casos en que prefiera usar diferente
+valor así que lo paso al style.css */
 
 ol,
 ul {

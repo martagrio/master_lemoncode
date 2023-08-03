@@ -2,6 +2,7 @@
 @use "base" as *;
 
 body {
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: $header-height 1fr $footer-height;
