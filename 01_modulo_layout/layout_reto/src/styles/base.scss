@@ -1,0 +1,24 @@
+$primary-color: #141414;
+$text-color: white;
+$title-size: 2rem;
+$breakpoint-desktop: 1280px;
+$breakpoint-tablet: 768px;
+
+@mixin sticky_elem($top: 0) {
+  position: sticky;
+  top: $top;
+}
+
+@mixin button_style() {
+  padding: 1.5rem 2rem;
+
+  &:hover {
+    background-color: $text-color;
+    border-radius: 5px;
+    color: $primary-color;
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    padding: 1rem 1.5rem;
+  }
+}

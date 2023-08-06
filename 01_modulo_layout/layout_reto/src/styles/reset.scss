@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost");
+
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}

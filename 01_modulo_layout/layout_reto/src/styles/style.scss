@@ -1,0 +1,137 @@
+@use "reset";
+@use "base" as *;
+
+body {
+  min-height: 100vh;
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+header {
+  @include sticky_elem();
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: inherit;
+  position: sticky;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .platform-title {
+    font-size: $title-size;
+
+    @media screen and (max-width: $breakpoint-desktop) {
+      display: none;
+    }
+  }
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > div {
+    @include button_style();
+  }
+}
+
+main {
+  padding: 1em;
+  background-color: inherit;
+}
+
+.section-title {
+  font-size: $title-size;
+  margin-bottom: 8px;
+
+  & + section {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    font-size: 1.5rem;
+  }
+}
+
+#top-text {
+  font-weight: bold;
+  font-size: inherit;
+
+  &::after {
+    content: "5";
+
+    @media screen and (max-width: $breakpoint-desktop) {
+      content: "3";
+    }
+  }
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  gap: 1rem;
+
+  .top-item {
+    min-width: 225px;
+
+    & > img {
+      width: 100%;
+    }
+
+    @media screen and (max-width: $breakpoint-desktop) {
+      &:nth-child(-n + 2) {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+}
+
+.first,
+.second {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  & > .item {
+    flex: 1;
+
+    &:hover {
+      flex: 1.2;
+      transition: all 0.6s; //Vaya mareo sin esto
+    }
+
+    & > img {
+      width: 100%;
+    }
+
+    @media screen and (max-width: $breakpoint-desktop) {
+      min-width: 250px;
+
+      /* 
+        No sé si he entendido bien los mínimos de ancho indicados en la página
+        de diseño responsive. Viendo todos los diseños según el ancho de pantalla
+        interpreto que los items de section "top" tienen siempre un mínimo de 225px 
+        y los item de las section "first" y "second" sólo tienen el mínimo ancho de 
+        250px por debajo de los 1280px de ancho de pantalla, porque viendo el diseño 
+        de a partir de 1280px de ancho todo tiene que salir en una línea, y con ese 
+        mínimo de 250px y 6 ítems es imposible para ese ancho. 
+      */
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    flex-wrap: wrap;
+  }
+}
